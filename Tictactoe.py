@@ -78,8 +78,6 @@ while True:
                 elif felder["a1"] == player2icon:
                     win = 2
                     break
-                else:
-                    print(" ")
             if felder["b1"] == felder["b2"] == felder["b3"]:
                 if felder["b1"] == player1icon:
                     win = 1
@@ -87,8 +85,6 @@ while True:
                 elif felder["b1"] == player2icon:
                     win = 2
                     break
-                else:
-                    print(" ")
             if felder["c1"] == felder["c2"] == felder["c3"]:
                 if felder["c1"] == player1icon:
                     win = 1
@@ -96,8 +92,6 @@ while True:
                 elif felder["c1"] == player2icon:
                     win = 2
                     break
-                else:
-                    print(" ")
             if felder["a1"] == felder["b1"] == felder["c1"]:
                 if felder["a1"] == player1icon:
                     win = 1
@@ -105,8 +99,6 @@ while True:
                 elif felder["a1"] == player2icon:
                     win = 2
                     break
-                else:
-                    print(" ")
             if felder["a2"] == felder["b2"] == felder["c2"]:
                 if felder["a2"] == player1icon:
                     win = 1
@@ -114,8 +106,6 @@ while True:
                 elif felder["a2"] == player2icon:
                     win = 2
                     break
-                else:
-                    print(" ")
             if felder["a3"] == felder["b3"] == felder["c3"]:
                 if felder["a3"] == player1icon:
                     win = 1
@@ -123,8 +113,6 @@ while True:
                 elif felder["a3"] == player2icon:
                     win = 2
                     break
-                else:
-                    print(" ")
             if felder["a1"] == felder["b2"] == felder["c3"]:
                 if felder["a1"] == player1icon:
                     win = 1
@@ -132,8 +120,6 @@ while True:
                 elif felder["a1"] == player2icon:
                     win = 2
                     break
-                else:
-                    print(" ")
             if felder["c1"] == felder["b2"] == felder["a3"]:
                 if felder["c1"] == player1icon:
                     win = 1
@@ -141,11 +127,11 @@ while True:
                 elif felder["c1"] == player2icon:
                     win = 2
                     break
-                else:
-                    print(" ")
         if win == 1:
+            brett(felder)
             print("Player one winns!!!")
         elif win == 2:
+            brett(felder)
             print("Player two winns!!!")
         else:
             print("draw!")
