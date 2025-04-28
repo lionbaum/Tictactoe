@@ -139,7 +139,7 @@ while True:
         print("ONE TOKEN!!!")
     
 #again############
-    nochmalfrage = input("Noch mal spielen? Y/n >")
+    nochmalfrage = input("Play again? Y/n >")
     if nochmalfrage == "Y":
         print("")                                 
         print("")
